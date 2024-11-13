@@ -1,6 +1,7 @@
+"use client";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
-import  Link  from "next/link";
+import Link from "next/link";
 import { Button } from "./ui/moving-border";
 export default function HeroSection() {
   return (

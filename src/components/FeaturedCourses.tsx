@@ -10,6 +10,7 @@ interface Course {
   description: string;
   price: number;
   instructor: string;
+  
   isFeatured: boolean;
 }
 
