@@ -79,7 +79,7 @@ export default function Songwriting() {
                   </h3>
                   <p className="text-lg text-neutral-300">
                     The melody is the musical element that carries the emotion
-                    of the song. It's important to experiment with different
+                    of the song. It is important to experiment with different
                     melodies until you find the perfect one that matches the
                     mood of the lyrics.
                   </p>
@@ -127,7 +127,7 @@ export default function Songwriting() {
               <li className="flex space-x-3">
                 <span className="text-teal-400">✍️</span>
                 <p>
-                  Don't be afraid to edit – sometimes the best lyrics come
+                  Do not be afraid to edit – sometimes the best lyrics come
                   through revisions.
                 </p>
               </li>
