@@ -4,12 +4,12 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "../assets/fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "../assets/fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
 });
@@ -29,10 +29,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-       <div className="relative w-full flex items-center justify-center ">
-       <Navbar />
-       </div>
+        <div className="relative w-full flex items-center justify-center ">
+          <Navbar />
+        </div>
         {children}
+        <div className="relative w-full flex items-center justify-center">
+          <Footer />
+        </div>
       </body>
     </html>
   );
